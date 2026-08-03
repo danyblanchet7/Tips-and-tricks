@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "C:/Users/danyblanchet7/Tips_and_tricks/Markdown_guide.md"
+path = "C:/Users/danyblanchet7/Tips_and_tricks/Calibration_Series_Log.md"
 
 #lecture files
 with open(path, "r", encoding="utf-8") as f:
