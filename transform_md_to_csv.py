@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "C:/Users/danyblanchet7/Tips_and_tricks/Calibration_Series_Log.md"
+path = "C:/Users/danyblanchet7/Tips_and_tricks/Parameter_Confidence_Table.md"
 
 #lecture files
 with open(path, "r", encoding="utf-8") as f:
@@ -27,7 +27,7 @@ df.columns = df.columns.str.strip()
 df = df.apply(lambda x: x.str.strip())
 
 df.to_csv(
-    "C:/Users/danyblanchet7/Tips_and_tricks/Calibration_Series_Log.csv",
+    "C:/Users/danyblanchet7/Tips_and_tricks/Parameter_Confidence_Table.csv",
     index=False
 )
 
