@@ -1,23 +1,25 @@
+
 ---
-title: "Test de quarto"
+title: "Test de Quarto"
 format: html
 ---
 
-### Quarto comme markdown ?
+### Quarto comme Markdown ?
 
-|je pense que oui|on va voir|Nop|
-|: ...|: ...|: ...|
-|x|x|x|
+| je pense que oui | on va voir | Nop |
+|:-----------------|:-----------|:----|
+| x                | x          | x   |
 
-***alors?***
-**yep**
+***Alors ?***
 
-####### Let's gooo
+**Yep**
 
-````bash
+### Let's gooo
 
-54->x 
+```bash
+54 -> x
 println x
 
 ```
--a ver
+
+- à voir
