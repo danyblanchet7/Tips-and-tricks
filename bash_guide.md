@@ -21,7 +21,7 @@
 * **Windows** gère l'environnement graphique quotidien, les écrans et le matériel (notamment la carte graphique GPU).
 * **Linux (WSL)** s'exécute en arrière-plan pour gérer les projets, les scripts Bash, les environnement de modélisation et les dépôts Git.
 
-> **Ce guide a pour objectif** de rassembler les commandes, raccourcis et automatismes essentiels pour naviguer sereinement dans cet environnement hybride sans perdre de temps.
+> **Ce guide a pour objectif** de rassembler les commandes et raccourcis  pour naviguer sereinement dans  l'environnement hybride sans perdre de temps.
 
 ---
 
