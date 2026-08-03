@@ -1,6 +1,27 @@
 #  Guide et Aide-Mémoire Bash (Linux / WSL)
 
-Ce dépôt rassemble les commandes Bash essentielles pour la gestion de fichiers et la navigation sous Linux/WSL.
+
+> *"L'interface graphique permet de faire ce qui a été prévu. Le bash permet de faire tout le reste!"* 
+>*"C'est comme utiliser Ocelet pour manipuler des fichiers SIG au lieu d'utiliser SAGA en clique-bouton"* 
+
+
+---
+
+  **Pourquoi utiliser la ligne de commande (Bash) ?**
+
+1. La quasi-totalité des modèles d'IA, des bibliothèques de calcul (PyTorch, TensorFlow) et des serveurs de calcul (Cloud, GPU distants) tournent sous Linux.
+2.  Une action qui prend 10 clics et 2 minutes à la souris (créer 50 dossiers, renommer des centaines de fichiers, filtrer des données) s'exécute en *une seule ligne de commande en quelques millisecondes*.
+3. Il est difficile d'expliquer à un bro « sur quoi cliquer », par contre, lui partager un script ou une commande Bash garantit qu'il obtiendra exactement le même résultat.
+
+---
+
+##  Le meilleur des deux mondes = **Windows + WSL**
+
+Il n'y a plus à choisir entre l'ergonomie de Windows et la puissance de Linux :
+* **Windows** gère votre l'environnement graphique quotidien, les écrans et le matériel (notamment la carte graphique GPU).
+* **Linux (WSL)** s'exécute en arrière-plan pour gérer les projets, les scripts Bash, les environnement de modélisation et les dépôts Git.
+
+> **Ce guide a pour objectif** de rassembler les commandes, raccourcis et automatismes essentiels pour naviguer sereinement dans cet environnement hybride sans perdre de temps.
 
 ---
 
@@ -26,9 +47,9 @@ Ce dépôt rassemble les commandes Bash essentielles pour la gestion de fichiers
 - `rm <fichier>` : Supprime un fichier.
 - `rm -r <dossier>` : Supprime un dossier et tout son contenu.
 
--`head -n 10 fichier` Affiche les 10 premières lignes
+- `head -n 10 fichier` Affiche les 10 premières lignes
 - `tail -n 10 fichier` Affiche les 10 dernières lignes
--`nano fichier` Édite un fichier (simple)
+- `nano fichier` Édite un fichier (simple)
 
 
 ---
